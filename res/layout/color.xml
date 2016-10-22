@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ImageButton
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:background="#00000000"
+        android:src="@drawable/fanhui" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/iclothsss" />
+
+    <ImageButton
+        android:id="@+id/Yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Red"
+        android:layout_below="@+id/Red"
+        android:background="#00000000"
+        android:src="@drawable/huang" />
+
+    <ImageButton
+        android:id="@+id/Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Red"
+        android:layout_below="@+id/Yellow"
+        android:background="#00000000"
+        android:src="@drawable/qing" />
+
+    <ImageButton
+        android:id="@+id/Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Purple"
+        android:layout_alignTop="@+id/Green"
+        android:background="#00000000"
+        android:src="@drawable/hui" />
+
+    <ImageButton
+        android:id="@+id/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Gray"
+        android:layout_alignRight="@+id/Gray"
+        android:background="#00000000"
+        android:src="@drawable/hei" />
+
+    <ImageButton
+        android:id="@+id/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Return"
+        android:layout_marginTop="141dp"
+        android:layout_toRightOf="@+id/Purple"
+        android:background="#00000000"
+        android:src="@drawable/chi" />
+
+    <ImageButton
+        android:id="@+id/Purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Red"
+        android:layout_toRightOf="@+id/Return"
+        android:background="#00000000"
+        android:src="@drawable/zi" />
+
+    <ImageButton
+        android:id="@+id/Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Yellow"
+        android:layout_below="@+id/Green"
+        android:background="#00000000"
+        android:src="@drawable/lan" />
+
+    <ImageButton
+        android:id="@+id/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Blue"
+        android:layout_toLeftOf="@+id/Blue"
+        android:background="#00000000"
+        android:src="@drawable/bai" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Return"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yansefenleibiaoti" />
+
+</RelativeLayout>

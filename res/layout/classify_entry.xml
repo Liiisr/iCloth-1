@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#ffffff" >
+
+    <ImageButton
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:background="#00000000"
+        android:src="@drawable/fanhui" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/iclothsss" />
+
+    <ImageButton
+        android:id="@+id/Season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_below="@+id/TopsPants"
+        android:background="#00000000"
+        android:src="@drawable/jijiefenlei" />
+
+    <ImageButton
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TopsPants"
+        android:layout_below="@+id/Season"
+        android:background="#00000000"
+        android:src="@drawable/yansefenlei" />
+
+    <ImageButton
+        android:id="@+id/Entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Color"
+        android:layout_below="@+id/Color"
+        android:background="#00000000"
+        android:src="@drawable/fuzhuangluru" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Return"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/fenlei" />
+
+    <ImageButton
+        android:id="@+id/TopsPants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Season"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="99dp"
+        android:background="#00000000"
+        android:src="@drawable/shangxiazhuangfenlei" />
+
+</RelativeLayout>

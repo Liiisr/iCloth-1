@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icloth"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.example.icloth.AlmEntry">
+        </activity>
+        <activity
+            android:name="com.example.icloth.EntryClassify">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Red">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Yellow">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Green">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Blue">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Purple">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Black">
+        </activity>
+        <activity
+            android:name="com.example.icloth.White">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Gray">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Spring">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Summer">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Fall">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Winter">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Pants">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Tops">
+        </activity>
+        <activity
+            android:name="com.example.icloth.TPs">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Season">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Color">
+        </activity>
+        <activity
+            android:name="com.example.icloth.Entry">
+        </activity>
+        <activity 
+            android:name="com.example.icloth.Classify">
+        </activity>
+
+        <activity
+            android:name="com.example.icloth.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

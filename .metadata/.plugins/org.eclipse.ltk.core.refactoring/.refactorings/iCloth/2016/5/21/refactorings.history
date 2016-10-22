@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring applystyle="true" comment="Extract Style" description="Extract Style" file="/iCloth/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.style" name="styleName" parent="?android:attr/shadowlessImageButtonStyle" proj="/iCloth" removeall="false" removeextracted="true" sel-end="1168" sel-start="783" stamp="1463372884296"/>&#x0A;<refactoring comment="将资源“iCloth/res/layout/activity_main.xml”重命名为“shouye.xml”" description="重命名资源“activity_main.xml”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_main.xml" name="shouye.xml" stamp="1463375382703" updateReferences="true"/>
+</session>

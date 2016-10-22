@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iCloth</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+
+	<string name="spinner_season">季节</string>
+	<string name="spinner_color">颜色</string>
+	<string name="spinner_tops">上下装</string>
+	<string name="spinner_level">衣物厚度</string>
+    <string-array name="classifyseason">
+        <item>春</item>
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+    </string-array>
+	<string-array name="classifycolor">
+        <item>赤</item>
+        <item>黄</item>
+        <item>青</item>
+        <item>蓝</item>
+        <item>紫</item>
+        <item>黑</item>
+        <item>灰</item>
+        <item>白</item>
+    </string-array>
+    <string-array name="classifytops">
+        <item>上装</item>
+        <item>下装 </item>
+    </string-array>
+    <string-array name="classifylevel">
+        <item>1 T恤 薄棉毛衫</item>
+        <item>2 厚棉毛衫</item>
+        <item>3 薄外套</item>
+        <item>4 抓绒 棉背心 厚羊毛衫</item>
+        <item>5 厚弹力絮棉衣</item>
+        <item>6 薄羽绒服</item>
+        <item>9 厚羽绒服</item>
+    </string-array>
+</resources>
